@@ -74,7 +74,6 @@ export default function ProjectDetailPage({
           </div>
         </section>
 
-        {/* Project Overview Section */}
         {project.problem && (
           <section className="container py-12 md:py-20 bg-secondary/30">
             <div className="max-w-5xl mx-auto">
@@ -103,7 +102,6 @@ export default function ProjectDetailPage({
           </section>
         )}
 
-        {/* Related Projects */}
         <section className="container py-12 md:py-20">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-12">
