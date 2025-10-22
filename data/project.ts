@@ -58,7 +58,7 @@ export const allProjects = [
     title: "Arabot – Live Chat Software & Ticketing System",
     description:
       "A bilingual landing page for Arabot, an AI-powered chat and ticketing system designed for businesses in the Middle East.",
-    image: "/arabot.png",
+    image: "/arabot-1.png",
     category: "UI/UX Design",
     date: "2023",
     client: "Arabot",
@@ -94,7 +94,7 @@ export const allProjects = [
     title: "EXConsultancy – Business Consultancy Website",
     description:
       "A modern, structured website built for EXConsultancy, balancing sophistication with accessibility to communicate trust and global expertise.",
-    image: "/exconsultancy.png",
+    image: "/exconsultancy-1.png",
     category: "Web Design",
     date: "2025",
     client: "EXConsultancy",
@@ -130,7 +130,7 @@ export const allProjects = [
     title: "Morent – Car Rental App",
     description:
       "A sleek, user-focused car rental app featuring intuitive booking, search, and filtering functions with modern UI and improved usability.",
-    image: "/morent.png",
+    image: "/morent-1.png",
     category: "Mobile Design",
     date: "2025",
     client: "Morent",
@@ -166,7 +166,7 @@ export const allProjects = [
     title: "Furniro – Furniture E-commerce Website",
     description:
       "A minimalist and elegant eCommerce site for Furniro. Features structured grids, high-quality imagery, and seamless product browsing.",
-    image: "/furniro.png",
+    image: "/funiro-1.png",
     category: "UI/UX Design",
     date: "2025",
     client: "Furniro",
@@ -220,7 +220,7 @@ export const allProjects = [
     title: "Foodieland Recipe Website Design",
     description:
       "An inviting recipe platform with minimalist design, bold food imagery, and intuitive navigation to inspire cooking and discovery.",
-    image: "/foodieland.png",
+    image: "/foodieland-1.png",
     category: "UI/UX Design",
     date: "2025",
     client: "Foodieland Co.",
@@ -238,7 +238,7 @@ export const allProjects = [
     title: "PostJob Landing Page Design",
     description:
       "A high-impact landing page for an AI-powered job application platform, designed with a dark, futuristic theme and bold CTAs to boost conversions.",
-    image: "/postjob.png",
+    image: "/postjob-1.png",
     category: "Web Design",
     date: "2025",
     client: "PostJob",

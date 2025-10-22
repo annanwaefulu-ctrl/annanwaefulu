@@ -6,12 +6,13 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { allProjects } from "@/data/project";
 
-export default function ProjectDetailPage({
+export default async function ProjectDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const project = allProjects.find((p) => p.slug === params.slug);
+  const { slug } = await params;
+  const project = allProjects.find((p) => p.slug === slug);
 
   if (!project) {
     return (
@@ -22,7 +23,7 @@ export default function ProjectDetailPage({
   }
 
   const relatedProjects = allProjects
-    .filter((p) => p.slug !== params.slug)
+    .filter((p) => p.slug !== slug)
     .slice(0, 2);
 
   return (
