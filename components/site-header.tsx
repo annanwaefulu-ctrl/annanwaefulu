@@ -22,13 +22,15 @@ export function SiteHeader() {
       <nav className="relative flex items-center justify-between w-[90%] md:w-auto px-6 py-3 rounded-full bg-white/80 border border-primary/20 backdrop-blur-md shadow-sm">
         <div className="flex items-center gap-3">
           <div className="h-10 w-10 rounded-full overflow-hidden border border-gray-200">
-            <Image
-              src="/logo.svg"
-              alt="Profile"
-              width={40}
-              height={40}
-              className="object-cover h-full w-full"
-            />
+            <Link href="/">
+              <Image
+                src="/logo.svg"
+                alt="Profile"
+                width={40}
+                height={40}
+                className="object-cover h-full w-full"
+              />
+            </Link>
           </div>
         </div>
 
