@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 export function ContactSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState("");
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -17,17 +19,49 @@ export function ContactSection() {
     return () => observer.disconnect();
   }, []);
 
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setLoading(true);
+    setStatus("");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        setStatus("Message sent successfully!");
+        form.reset();
+      } else {
+        setStatus(" Failed to send message.");
+      }
+    } catch (err) {
+      console.error("Form submission error:", err);
+      setStatus("Error submitting form.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <section
       ref={sectionRef}
-      className=" py-24 md:py-32 bg-[#f5f5ff] rounded-3xl"
+      className="py-24 md:py-32 bg-[#f5f5ff] rounded-3xl"
       id="contact"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
-        className=" container max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12"
+        className="container max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12"
       >
         <div className="relative flex-shrink-0">
           <div className="rounded-2xl overflow-hidden shadow-md w-[320px] md:w-[360px]">
@@ -52,14 +86,16 @@ export function ContactSection() {
             your website, or your next big idea.
           </p>
 
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             {/* Name and Email */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="text-sm text-gray-600">Name</label>
                 <input
                   type="text"
+                  name="name"
                   placeholder="John Smith"
+                  required
                   className="w-full mt-2 px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                 />
               </div>
@@ -67,7 +103,9 @@ export function ContactSection() {
                 <label className="text-sm text-gray-600">Email</label>
                 <input
                   type="email"
+                  name="email"
                   placeholder="johnsmith@gmail.com"
+                  required
                   className="w-full mt-2 px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                 />
               </div>
@@ -76,7 +114,10 @@ export function ContactSection() {
             {/* Service Needed */}
             <div>
               <label className="text-sm text-gray-600">Service Needed?</label>
-              <select className="w-full mt-2 px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+              <select
+                name="service"
+                className="w-full mt-2 px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+              >
                 <option value="">Select...</option>
                 <option>Branding</option>
                 <option>Website Design</option>
@@ -91,18 +132,25 @@ export function ContactSection() {
                 What Can I Help You With?
               </label>
               <textarea
+                name="message"
                 rows={4}
                 placeholder="Hello, I’d like to enquire about..."
+                required
                 className="w-full mt-2 px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none resize-none"
               />
             </div>
 
             <Button
               type="submit"
+              disabled={loading}
               className="px-8 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white font-semibold text-base transition-all"
             >
-              SUBMIT
+              {loading ? "Sending..." : "SUBMIT"}
             </Button>
+
+            {status && (
+              <p className="text-sm text-gray-700 font-medium mt-3">{status}</p>
+            )}
           </form>
         </div>
       </motion.div>
