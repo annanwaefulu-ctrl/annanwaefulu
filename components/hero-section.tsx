@@ -106,7 +106,7 @@ export function HeroSection() {
           transition={{ delay: 1.5, duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <Link href="#projects">
+          <Link href="/projects">
             <button className="bg-[#5E67E6] text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-[#5E67E6]/90 transition-all shadow-lg">
               Explore My Work
             </button>
