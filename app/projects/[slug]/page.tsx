@@ -33,7 +33,7 @@ export default async function ProjectDetailPage({
         <section className="container py-12 md:py-20">
           <div className="max-w-5xl mx-auto">
             <Link href="/projects">
-              <Button variant="ghost" size="sm" className="mb-8 md:mt-10">
+              <Button variant="ghost" size="sm" className="mb-8 mt-10 ">
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 All Projects
               </Button>
