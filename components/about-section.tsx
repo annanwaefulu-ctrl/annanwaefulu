@@ -36,7 +36,7 @@ export function AboutSection() {
       id="about"
     >
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 md:gap-24 items-center justify-between">
           <div
             className={`transition-all duration-1000 ${
               isVisible
@@ -47,22 +47,21 @@ export function AboutSection() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">ABOUT ME</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm a passionate digital product designer with over 8 years of
-                experience creating beautiful, functional digital experiences.
-                My approach combines user-centered design principles with
-                technical expertise to deliver solutions that truly resonate
-                with users.
+                Hi, I'm Anna — a product designer and Web developer passionate
+                about crafting meaningful and impactful digital experiences.🚀
+                Tired of designs that look fine but don’t move the needle? I
+                design high-performing UI/UX in Figma that transforms products
+                into growth engines — helping SaaS founders and startups boost
+                conversions, retain users, and attract investors with interfaces
+                that feel effortless, modern, and built to scale.
               </p>
               <p>
-                Throughout my career, I've had the privilege of working with
-                startups and established companies across various industries,
-                helping them transform their digital presence and achieve their
-                business goals through thoughtful design.
-              </p>
-              <p>
-                When I'm not designing, you can find me exploring new design
-                trends, contributing to open-source projects, or sharing my
-                knowledge through writing and mentoring aspiring designers.
+                I help startups, SaaS companies, and businesses create modern,
+                conversion-focused mobile apps, websites, and dashboards using
+                Figma. With 8+ years of experience, I focus on your goals,
+                higher engagement, smoother user journeys, and scalable designs
+                that drive growth. From concept to launch, I ensure every design
+                decision supports your brand, your users, and your bottom line.
               </p>
             </div>
 
@@ -95,15 +94,11 @@ export function AboutSection() {
                 : "opacity-0 translate-x-10"
             }`}
           >
-            <div className="aspect-square rounded-2xl bg-secondary overflow-hidden">
-              <img
-                src="anna.png"
-                alt="About"
-                className="h-full w-full object-cover"
-              />
+            <div className="  overflow-hidden">
+              <img src="anna2.png" alt="About" className="" />
             </div>
-            <div className="absolute -bottom-6 -right-6 h-32 w-32 rounded-full bg-primary/10 -z-10" />
-            <div className="absolute -top-6 -left-6 h-24 w-24 rounded-full bg-primary/10 -z-10" />
+            {/* <div className="absolute -bottom-6 -right-6 h-32 w-32 rounded-full bg-primary/10 -z-10" /> */}
+            {/* <div className="absolute -top-6 -left-6 h-24 w-24 rounded-full bg-primary/10 -z-10" /> */}
           </div>
         </div>
       </div>

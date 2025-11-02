@@ -115,6 +115,9 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -166,4 +169,9 @@ p {
   .animate-fade-in-up {
     animation: fade-in-up 1s ease-out forwards;
   }
+}
+
+/* Optional smoother animation rendering */
+.will-change-transform {
+  transform: translateZ(0);
 }

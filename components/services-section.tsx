@@ -145,9 +145,9 @@ export function ServicesSection() {
               : "opacity-0 translate-y-10 rotate-0"
           } flex justify-center`}
         >
-          <div className="relative w-[320px] md:w-[400px] lg:w-[440px] rounded-2xl overflow-hidden shadow-xl rotate-3">
+          <div className="relative w-[320px] md:w-[400px] lg:w-[440px] rounded-2xl overflow-hidden rotate-3">
             <Image
-              src="/anna.png"
+              src="/portfolio.png"
               alt="Workspace setup"
               width={600}
               height={800}
