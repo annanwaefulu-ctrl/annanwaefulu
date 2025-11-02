@@ -28,7 +28,7 @@ export function HeroSection() {
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true }}
           >
-            <p className="text-sm font-semibold text-start tracking-widest text-gray-600 uppercase mb-4">
+            <p className="text-[16px] md:text-2xl font-semibold text-center md:text-start tracking-widest text-gray-600 uppercase mb-4">
               Anna Nwaefulu
             </p>
             <motion.h1
@@ -91,7 +91,7 @@ export function HeroSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2, duration: 0.8 }}
               viewport={{ once: true }}
-              className="text-gray-500 mt-2 text-sm md:text-base text-end"
+              className="text-gray-500 mt-2 text-sm md:text-base md:text-end"
             >
               I&apos;m a US-based Product designer <br /> and Web Developer
             </motion.p>

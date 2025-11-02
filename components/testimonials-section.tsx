@@ -11,35 +11,35 @@ export function TestimonialsSection() {
       role: "Marketing Director",
       content:
         "Anna truly understood my vision and turned it into impactful designs. The results went beyond my expectations!",
-      avatar: "/testimonial-1.png",
+      avatar: "/review1.png",
     },
     {
       name: "Laura Bennett",
       role: "Small Business Owner",
       content:
         "As a small business owner, I appreciated how stress-free Anna made the process.",
-      avatar: "/testimonial-2.png",
+      avatar: "/review2.png",
     },
     {
       name: "Michael Lee",
       role: "Product Manager",
       content:
         "She took the time to understand our goals and delivered a design that resonated perfectly with our audience.",
-      avatar: "/testimonial-3.png",
+      avatar: "/review3.png",
     },
     {
       name: "Michael Lee",
       role: "Product Manager",
       content:
         "She took the time to understand our goals and delivered a design that resonated perfectly with our audience.",
-      avatar: "/testimonial-3.png",
+      avatar: "/review3.png",
     },
     {
       name: "Sarah Johnson",
       role: "CEO",
       content:
         "Her design skills are unmatched. She transformed my ideas into a high-performing, visually striking website.",
-      avatar: "/testimonial-4.png",
+      avatar: "/review4.png",
     },
   ];
 
@@ -91,7 +91,7 @@ export function TestimonialsSection() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+          <h2 className="text-4xl md:text-6xl text-[#525359] font-bold mb-4 tracking-tight">
             WHAT MY CLIENTS SAY
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl text-balance leading-relaxed">

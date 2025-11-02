@@ -6,6 +6,7 @@ import { AboutSection } from "@/components/about-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { ContactSection } from "@/components/contact-section";
 import { SiteFooter } from "@/components/site-footer";
+import { VideoReviews } from "@/components/video";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <FeaturedProjects />
         <AboutSection />
         <TestimonialsSection />
+        <VideoReviews />
         <ContactSection />
       </main>
       <SiteFooter />

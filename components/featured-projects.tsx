@@ -23,32 +23,32 @@ function useIsDesktop() {
 export function FeaturedProjects() {
   const projects = [
     {
-      title: "Workspace Furniture Website",
+      slug: "arabot",
+      title: "Arabot – Live Chat Software & Ticketing System",
       description:
-        "Created a clean, minimalist eCommerce website for “Workspace Co.” focused on high-quality office furniture and elegant product presentation.",
-      image: "/Artboard 3.png",
-      slug: "Workspace-Furniture-Website",
+        "A bilingual landing page for Arabot, an AI-powered chat and ticketing system designed for businesses in the Middle East.",
+      image: "/arabot-1.png",
     },
     {
+      title: "Workspace Furniture Website",
+      slug: "workspace-furniture-website",
+      description:
+        "A clean, minimalist eCommerce website for Workspace Co., designed to showcase high-quality office furniture with elegance and clarity.",
+      image: "/Artboard 3.png",
+    },
+    {
+      slug: "cozyhome-furniture-store",
       title: "CozyHome Furniture Store",
       description:
-        "Designed a warm, user-friendly eCommerce website for “CozyHome Interiors” to improve conversions and create an emotional connection with users.",
+        "A warm, user-friendly eCommerce experience for CozyHome Interiors, designed to build trust and emotional connection with users.",
       image: "/furniture.png",
-      slug: "flair-ai-framework",
     },
     {
+      slug: "partyworks-celebration-store",
       title: "PartyWorks Celebration Store",
       description:
-        "Developed a lively eCommerce experience for “PartyWorks,” a brand specializing in party supplies and themed decorations.",
+        "A fun, lively eCommerce platform built for PartyWorks, a brand specializing in party supplies and themed decorations.",
       image: "/party.png",
-      slug: "mobile-app-experience",
-    },
-    {
-      title: "Automotive Website Redesign",
-      description:
-        "Reimagined a car brand’s online presence with immersive visuals and a sleek, user-centered design experience.",
-      image: "/jarkata.png",
-      slug: "automotive-redesign",
     },
   ];
 

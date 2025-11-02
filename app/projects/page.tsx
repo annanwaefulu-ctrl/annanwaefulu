@@ -18,7 +18,7 @@ export default function ProjectsPage() {
                 <div className="flex-1 h-[2px] bg-black"></div>
               </div>
 
-              <p className="text-lg text-muted-foreground max-w-2xl mt-6 leading-relaxed">
+              <p className="text-lg text-muted-foreground max-w-2xl mt-6 md:mb-12 leading-relaxed">
                 These selected projects reflect my passion for blending strategy
                 with creativity — solving real problems through thoughtful
                 design and impactful storytelling.
