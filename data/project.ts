@@ -4,7 +4,7 @@ export const allProjects = [
     title: "Workspace Furniture Website",
     description:
       "A clean, minimalist eCommerce website for Workspace Co., designed to showcase high-quality office furniture with elegance and clarity.",
-    image: "/workspace.png",
+    image: "/workspace1.png",
     image2: "/workspace-2.png",
     image3: "/workspace-3.png",
     category: "Web Design",

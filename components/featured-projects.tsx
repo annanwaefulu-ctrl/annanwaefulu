@@ -34,7 +34,7 @@ export function FeaturedProjects() {
       slug: "workspace-furniture-website",
       description:
         "A clean, minimalist eCommerce website for Workspace Co., designed to showcase high-quality office furniture with elegance and clarity.",
-      image: "/Artboard 3.png",
+      image: "/workspace1.png",
     },
     {
       slug: "cozyhome-furniture-store",
