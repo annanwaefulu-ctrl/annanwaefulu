@@ -71,7 +71,7 @@ export function HeroSection() {
 
           {/* Right: DESIGNER */}
           <motion.div
-            className="flex flex-col items-start md:items-end"
+            className="flex flex-col items-center md:items-end"
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
