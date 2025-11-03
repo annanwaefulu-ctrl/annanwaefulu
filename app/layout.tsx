@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Anna Nwaefulu",
     images: [
       {
-        url: "https://annanwaefulu.vercel.app/anna.png",
+        url: "https://annanwaefulu.com/anna.png",
         width: 1200,
         height: 630,
         alt: "Anna Nwaefulu Portfolio Preview",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Anna Nwaefulu – Product Designer",
     description:
       "A portfolio showcasing innovative UI/UX design, product strategy, and creative direction by Anna Nwaefulu.",
-    images: ["https://annanwaefulu.vercel.app/anna.png"],
+    images: ["https://annanwaefulu.com/anna.png"],
     creator: "@anna_nwaefulu",
   },
 };
