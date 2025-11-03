@@ -16,6 +16,31 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Anna Nwaefulu",
   description: "Product Designer",
+  openGraph: {
+    title: "Anna Nwaefulu – Product Designer",
+    description:
+      "A portfolio showcasing innovative UI/UX design, product strategy, and creative direction by Anna Nwaefulu.",
+    url: "https://annanwaefulu.com",
+    siteName: "Anna Nwaefulu",
+    images: [
+      {
+        url: "https://annanwaefulu.vercel.app/anna.png",
+        width: 1200,
+        height: 630,
+        alt: "Anna Nwaefulu Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anna Nwaefulu – Product Designer",
+    description:
+      "A portfolio showcasing innovative UI/UX design, product strategy, and creative direction by Anna Nwaefulu.",
+    images: ["https://annanwaefulu.vercel.app/anna.png"],
+    creator: "@anna_nwaefulu",
+  },
 };
 
 export default function RootLayout({
