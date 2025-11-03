@@ -2,7 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Mail, Phone } from "lucide-react";
-import { FaDribbble, FaInstagram, FaBehance } from "react-icons/fa";
+import { FaDribbble, FaTwitter } from "react-icons/fa";
+import { FaSquareUpwork } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 
 export function AboutSection() {
   const stats = [
@@ -92,17 +94,17 @@ export function AboutSection() {
             <div className="mt-10 space-y-4 text-gray-700">
               <div className="flex flex-col sm:flex-row sm:items-center sm:gap-8">
                 <div>
-                  <p className="text-sm font-semibold">Call Today :</p>
+                  <p className="text-sm font-semibold">Message Today :</p>
                   <p className="text-base font-medium">
                     <Phone className="inline-block w-4 h-4 mr-2 text-[#5E67E6]" />
-                    +1 (555) 123-4567
+                    +2349035533033
                   </p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold">Email :</p>
                   <p className="text-base font-medium">
                     <Mail className="inline-block w-4 h-4 mr-2 text-[#5E67E6]" />
-                    designer@example.com
+                    Annanwaefulu@gmail.com
                   </p>
                 </div>
               </div>
@@ -110,22 +112,28 @@ export function AboutSection() {
               {/* Socials */}
               <div className="flex items-center gap-4 mt-4">
                 <a
-                  href="#"
+                  href="https://dribbble.com/anna-nwaefulu"
                   className="p-3 bg-white rounded-full shadow hover:bg-[#5E67E6]/10 transition"
                 >
                   <FaDribbble className="text-[#5E67E6] w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.upwork.com/freelancers/~01f6fdda3b09d5beea"
                   className="p-3 bg-white rounded-full shadow hover:bg-[#5E67E6]/10 transition"
                 >
-                  <FaInstagram className="text-[#5E67E6] w-5 h-5" />
+                  <FaSquareUpwork className="text-[#5E67E6] w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href=" https://www.linkedin.com/in/anna-nwaefulu-1977b238a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   className="p-3 bg-white rounded-full shadow hover:bg-[#5E67E6]/10 transition"
                 >
-                  <FaBehance className="text-[#5E67E6] w-5 h-5" />
+                  <CiLinkedin className="text-[#5E67E6] w-5 h-5" />
+                </a>
+                <a
+                  href="https://x.com/anna_nwaefulu"
+                  className="p-3 bg-white rounded-full shadow hover:bg-[#5E67E6]/10 transition"
+                >
+                  <FaTwitter className="text-[#5E67E6] w-5 h-5" />
                 </a>
               </div>
             </div>

@@ -86,10 +86,24 @@ export default async function ProjectDetailPage({
                   <strong className="text-foreground">Problem:</strong>{" "}
                   {project.problem}
                 </p>
+                {project.image2 && (
+                  <img
+                    src={project.image2}
+                    alt={project.title}
+                    className="h-[500px] w-full object-cover"
+                  />
+                )}
                 <p>
                   <strong className="text-foreground">Solution:</strong>{" "}
                   {project.solution}
                 </p>
+                {project.image3 && (
+                  <img
+                    src={project.image3}
+                    alt={project.title}
+                    className="h-[500px] w-full object-cover"
+                  />
+                )}
                 <p>
                   <strong className="text-foreground">Challenge:</strong>{" "}
                   {project.challenge}

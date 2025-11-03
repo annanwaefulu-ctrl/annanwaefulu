@@ -4,7 +4,9 @@ export const allProjects = [
     title: "Workspace Furniture Website",
     description:
       "A clean, minimalist eCommerce website for Workspace Co., designed to showcase high-quality office furniture with elegance and clarity.",
-    image: "/Artboard 3.png",
+    image: "/workspace.png",
+    image2: "/workspace-2.png",
+    image3: "/workspace-3.png",
     category: "Web Design",
     date: "2025",
     client: "Workspace Co.",
@@ -23,6 +25,8 @@ export const allProjects = [
     description:
       "A warm, user-friendly eCommerce experience for CozyHome Interiors, designed to build trust and emotional connection with users.",
     image: "/furniture.png",
+    image2: "/furniture-3.webp",
+    image3: "/furniture-4.webp",
     category: "Website Design",
     date: "2025",
     client: "CozyHome Interiors",
@@ -40,7 +44,9 @@ export const allProjects = [
     title: "PartyWorks Celebration Store",
     description:
       "A fun, lively eCommerce platform built for PartyWorks, a brand specializing in party supplies and themed decorations.",
-    image: "/party.png",
+    image: "/party.webp",
+    image2: "/party.png",
+    image3: "/party.webp",
     category: "UI/UX Design",
     date: "2024",
     client: "PartyWorks",
@@ -59,6 +65,8 @@ export const allProjects = [
     description:
       "A bilingual landing page for Arabot, an AI-powered chat and ticketing system designed for businesses in the Middle East.",
     image: "/arabot-1.png",
+    image2: "/arabot-2.png",
+    image3: "/arabot-3.png",
     category: "UI/UX Design",
     date: "2023",
     client: "Arabot",
@@ -76,7 +84,7 @@ export const allProjects = [
     title: "Limitless Studios – Camera Rental App",
     description:
       "A seamless mobile app for Limitless Studios, making professional camera and gear rentals as simple as online shopping.",
-    image: "/limitless.png",
+    image: "/limitless.webp",
     category: "Mobile Design",
     date: "2024",
     client: "Limitless Studios",
@@ -95,6 +103,8 @@ export const allProjects = [
     description:
       "A modern, structured website built for EXConsultancy, balancing sophistication with accessibility to communicate trust and global expertise.",
     image: "/exconsultancy-1.png",
+    image2: "/exconsultancy-2.webp",
+    image3: "/exconsultancy-3.webp",
     category: "Web Design",
     date: "2025",
     client: "EXConsultancy",
@@ -112,7 +122,8 @@ export const allProjects = [
     title: "The Creator – Creative Agency Website",
     description:
       "A vibrant, imaginative website designed for The Creator Agency to showcase its creative spirit and attract brand partnerships.",
-    image: "/creator.png",
+    image: "/creator.webp",
+    image2: "/creator-1.webp",
     category: "Web Design",
     date: "2025",
     client: "The Creator",
@@ -130,7 +141,9 @@ export const allProjects = [
     title: "Morent – Car Rental App",
     description:
       "A sleek, user-focused car rental app featuring intuitive booking, search, and filtering functions with modern UI and improved usability.",
-    image: "/morent-1.png",
+    image: "/morent-1.webp",
+    image2: "/morent-3.webp",
+    image3: "/morent-1.webp",
     category: "Mobile Design",
     date: "2025",
     client: "Morent",
@@ -148,7 +161,9 @@ export const allProjects = [
     title: "LingoLearn – English Learning Platform",
     description:
       "An engaging and colorful e-learning platform for learners and instructors. Designed to be intuitive, vibrant, and motivating.",
-    image: "/lingolearn.png",
+    image: "/lingolearn-1.webp",
+    image2: "/lingolearn-2.webp",
+    image3: "/lingolearn.webp",
     category: "Web Design",
     date: "2025",
     client: "LingoLearn",
@@ -167,6 +182,8 @@ export const allProjects = [
     description:
       "A minimalist and elegant eCommerce site for Furniro. Features structured grids, high-quality imagery, and seamless product browsing.",
     image: "/funiro-1.png",
+    image2: "/funiro-2.webp",
+    image3: "/funiro-3.webp",
     category: "UI/UX Design",
     date: "2025",
     client: "Furniro",
@@ -184,7 +201,8 @@ export const allProjects = [
     title: "Dreamsville – Real Estate App",
     description:
       "A modern property browsing experience with card-based design, enhanced filters, and gallery integration to make exploration effortless.",
-    image: "/dreamsville.png",
+    image: "/dreamsville.webp",
+    image2: "/dreamsville-2.webp",
     category: "Mobile Design",
     date: "2025",
     client: "Dreamsville",
@@ -198,29 +216,73 @@ export const allProjects = [
       "The Dreamsville Real Estate App redefines property browsing through intuitive, modern, and elegant design that enhances discovery and trust.",
   },
   {
-    slug: "modern-portfolio",
-    title: "Modern Portfolio Website",
+    slug: "hekto-furniture-website",
+    title: "Hekto – Furniture eCommerce Website",
     description:
-      "A clean, personal portfolio site designed to showcase creative projects with clarity, confidence, and strong visual storytelling.",
-    image: "/portfolio.png",
-    category: "Web Design",
+      "A modern eCommerce platform for Hekto that combines elegance, usability, and conversion-focused design to showcase contemporary furniture collections.",
+    image: "/hekto.webp",
+    image2: "/hekto-2.webp",
+    image3: "/hekto-3.webp",
+    category: "UI/UX Design",
     date: "2025",
-    client: "UI/UX Designer",
+    client: "Hekto",
     problem:
-      "The goal was to design a clean and professional portfolio site to effectively showcase creative work and attract potential clients.",
+      "Hekto needed an elegant and user-friendly eCommerce website to showcase their modern furniture collection, aiming to create an enjoyable browsing experience and boost conversions.",
     solution:
-      "Built a minimalist layout highlighting projects through structured sections, consistent typography, and strong visual storytelling.",
+      "I designed a clean, visually engaging interface with pastel tones and ample spacing to highlight the furniture pieces. Each section was structured for quick scanning and intuitive purchasing, with CTAs placed strategically for visibility.",
     challenge:
-      "Ensuring the site felt both personal and professional without cluttering visuals or text.",
+      "Balancing aesthetics and usability—ensuring the refined brand look didn’t compromise a smooth shopping experience.",
     summary:
-      "The portfolio design presents work with clarity and confidence, serving as a polished representation of design skill and identity.",
+      "The final design is a visually pleasing, conversion-optimized website that blends style, comfort, and usability to reflect Hekto’s modern identity.",
   },
+  {
+    slug: "processai-dashboard",
+    title: "ProcessAI – Business Automation Dashboard",
+    description:
+      "A sleek, data-driven dashboard for ProcessAI that visualizes automation insights through a clean, futuristic design.",
+    image: "/processai.webp",
+    image2: "/process-1.webp",
+    image3: "/process-2.webp",
+    category: "UI/UX Design",
+    date: "2025",
+    client: "ProcessAI",
+    problem:
+      "ProcessAI needed a modern dashboard design to display complex AI automation data while maintaining professionalism and trust.",
+    solution:
+      "I designed a dark-mode interface accented with electric blue highlights for clarity and modernity. Each data component—from metrics to graphs—was organized for readability and quick decision-making.",
+    challenge:
+      "Keeping the interface clean and intuitive despite large volumes of data and analytics elements.",
+    summary:
+      "The result is a futuristic yet professional dashboard that simplifies data interpretation and strengthens ProcessAI’s brand presence.",
+  },
+  {
+    slug: "neststrix-hotel-ui-kit",
+    title: "Neststrix Studio – Hotel UI Kit",
+    description:
+      "A premium golden-brown UI kit tailored for luxury hotel booking platforms, designed to combine elegance and usability.",
+    image: "/neststrix-1.webp",
+    image2: "/neststrix-2.webp",
+    image3: "/neststrix-3.webp",
+    category: "UI Kit Design",
+    date: "2025",
+    client: "Neststrix Studio",
+    problem:
+      "Neststrix Studio wanted a sophisticated and warm UI kit for hotel booking interfaces that balanced luxury aesthetics with reusability.",
+    solution:
+      "I created a golden-brown themed kit with modular components for room booking, menus, and analytics, maintaining consistent typography and visual hierarchy throughout.",
+    challenge:
+      "Ensuring visual luxury while preserving flexibility and scalability across various hotel websites and mobile screens.",
+    summary:
+      "The Neststrix UI Kit blends premium design with modular functionality, providing an elegant foundation for creating hotel experiences.",
+  },
+
   {
     slug: "foodieland-recipe-website",
     title: "Foodieland Recipe Website Design",
     description:
       "An inviting recipe platform with minimalist design, bold food imagery, and intuitive navigation to inspire cooking and discovery.",
     image: "/foodieland-1.png",
+    image2: "/foodieland-2.png",
     category: "UI/UX Design",
     date: "2025",
     client: "Foodieland Co.",
@@ -239,6 +301,7 @@ export const allProjects = [
     description:
       "A high-impact landing page for an AI-powered job application platform, designed with a dark, futuristic theme and bold CTAs to boost conversions.",
     image: "/postjob-1.png",
+    image2: "/postjob.webp",
     category: "Web Design",
     date: "2025",
     client: "PostJob",

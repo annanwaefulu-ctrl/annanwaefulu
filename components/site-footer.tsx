@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Facebook, Instagram, X, Linkedin } from "lucide-react";
+import { Dribbble, X, Linkedin } from "lucide-react";
+import { FaSquareUpwork } from "react-icons/fa6";
 
 export function SiteFooter() {
   return (
@@ -10,13 +11,13 @@ export function SiteFooter() {
           {/* Email */}
           <div className="text-center md:text-left">
             <p className="text-sm opacity-80 mb-1">Email :</p>
-            <p className="text-lg font-semibold">designer@example.com</p>
+            <p className="text-lg font-semibold">Annanwaefulu@gmail.com </p>
           </div>
 
           {/* Call Info */}
           <div className="text-center">
-            <p className="text-sm opacity-80 mb-1">Call Today :</p>
-            <p className="text-lg font-semibold">+1 (555) 123-4567</p>
+            <p className="text-sm opacity-80 mb-1">Message Today :</p>
+            <p className="text-lg font-semibold">+2349035533033</p>
           </div>
 
           {/* Social Icons */}
@@ -24,25 +25,25 @@ export function SiteFooter() {
             <p className="text-sm opacity-80 mb-3">Social :</p>
             <div className="flex justify-center md:justify-end gap-4">
               <Link
-                href="#"
+                href="https://dribbble.com/anna-nwaefulu"
                 className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
               >
-                <Facebook className="h-4 w-4 text-white" />
+                <Dribbble className="h-4 w-4 text-white" />
               </Link>
               <Link
-                href="#"
+                href="https://www.upwork.com/freelancers/~01f6fdda3b09d5beea"
                 className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
               >
-                <Instagram className="h-4 w-4 text-white" />
+                <FaSquareUpwork className="h-4 w-4 text-white" />
               </Link>
               <Link
-                href="#"
+                href="https://x.com/anna_nwaefulu"
                 className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
               >
                 <X className="h-4 w-4 text-white" />
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/anna-nwaefulu-1977b238a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
               >
                 <Linkedin className="h-4 w-4 text-white" />
