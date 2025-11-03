@@ -90,7 +90,7 @@ export default async function ProjectDetailPage({
                   <img
                     src={project.image2}
                     alt={project.title}
-                    className="h-[500px] w-full object-cover"
+                    className="h-full md:h-[500px] w-full object-cover"
                   />
                 )}
                 <p>
@@ -101,7 +101,7 @@ export default async function ProjectDetailPage({
                   <img
                     src={project.image3}
                     alt={project.title}
-                    className="h-[500px] w-full object-cover"
+                    className=" h-full md:h-[500px] w-full object-cover"
                   />
                 )}
                 <p>
