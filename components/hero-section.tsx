@@ -93,7 +93,8 @@ export function HeroSection() {
               viewport={{ once: true }}
               className="text-gray-500 mt-2 text-sm md:text-base md:text-end"
             >
-              I&apos;m a US-based Product designer <br /> and Web Developer
+              I&apos;m a Nigerian-based Product designer <br /> and Web
+              Developer
             </motion.p>
           </motion.div>
         </div>
